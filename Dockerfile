@@ -4,4 +4,4 @@ ENV NODE_ENV=production
 
 EXPOSE 5678
 
-CMD ["n8n", "start", "--port", "${PORT:-5678}"]
+CMD ["node", "/usr/local/bin/n8n"]
