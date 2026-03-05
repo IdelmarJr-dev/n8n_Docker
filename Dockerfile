@@ -4,4 +4,3 @@ ENV NODE_ENV=production
 
 EXPOSE 5678
 
-CMD ["node", "/usr/local/bin/n8n"]
